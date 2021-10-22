@@ -30,7 +30,7 @@ Log out and back in
 Signalwire Settings
 ====================
 
-* login to https://signalwire.com
+* Login to https://signalwire.com
 * Left side menu click `Video`
 * Create a new room with the desired options
 * Click `Embed Video Room`
@@ -65,11 +65,5 @@ Final Thoughts
 ==================
 
 While the app is fully functional it is recomended to test this on a dev instance like you should any new features added to your installation.  More work is needed to set moderator and participant usage. Review meet_signalwire.php for more details.
-
-
-
-
-
-
 
 
