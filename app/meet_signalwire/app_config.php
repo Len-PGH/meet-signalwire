@@ -50,12 +50,12 @@
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Enter the participant token generated from https://signalwire.com";
 		$y++;
 		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "4a247922-8abe-4806-bafe-c441afe61f64";
-    $apps[$x]['default_settings'][$y]['default_setting_category'] = "meet_signalwire";
-    $apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "meet_signalwire_moderator_token";
-    $apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-    $apps[$x]['default_settings'][$y]['default_setting_value'] = "vrg_ed9e29a551234564321d0750dd30000";
-    $apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
-    $apps[$x]['default_settings'][$y]['default_setting_description'] = "Enter the moderator token generated from https://signalwire.com"
-    $y++;
+    		$apps[$x]['default_settings'][$y]['default_setting_category'] = "meet_signalwire";
+    		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "meet_signalwire_moderator_token";
+    		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+    		$apps[$x]['default_settings'][$y]['default_setting_value'] = "vrg_ed9e29a551234564321d0750dd30000";
+    		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+    		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Enter the moderator token generated from https://signalwire.com";
+    		$y++;
 
 ?>
