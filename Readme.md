@@ -55,10 +55,10 @@ Settings are quick and easy to set.
 
 ![meet_signalwire6](https://user-images.githubusercontent.com/13131198/138473263-cf79da09-7fa7-4524-a91c-f47684a494f2.png)
 
-
+![meet_signalwire1](https://user-images.githubusercontent.com/13131198/138473272-c66f44db-dc16-4ea7-b42e-e078a5d520ab.png)
 ![meet_signalwire3](https://user-images.githubusercontent.com/13131198/138473267-eb7a0110-b29a-47b2-b376-31a9fc7ef3e3.png)
 
-![meet_signalwire1](https://user-images.githubusercontent.com/13131198/138473272-c66f44db-dc16-4ea7-b42e-e078a5d520ab.png)
+
 ![meet_signalwire](https://user-images.githubusercontent.com/13131198/138473273-19d0bd43-827d-4d2c-b936-cac5525078a0.png)
 
 Final Thoughts
