@@ -18,7 +18,7 @@ On your server
 cd /usr/src
 git clone https://github.com/Len-PGH/meet-signalwire.git
 Copy or move the directory 'meet_signalwire' into your main FusionPBX directory
-cp -R /usr/src/meet-signalwire/app/meet_signalwire/ /var/www/fusionpbx/app
+cp -R /usr/src/meet-signalwire/app/meet_signalwire/ /var/www/fusionpbx/app/
 chown -R www-data:www-data /var/www/fusionpbx/app/meet_signalwire
 
 Log into your FusionPBX install.
