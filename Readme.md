@@ -23,7 +23,7 @@ chown -R www-data:www-data /var/www/fusionpbx/app/meet_signalwire
 
 Log into your FusionPBX install.
 Advanced -> Upgrade
-Menu Defaults and Permission Defaults.
+Menu Defaults, App Defaults and Permission Defaults.
 Log out and back in
 ```
 
