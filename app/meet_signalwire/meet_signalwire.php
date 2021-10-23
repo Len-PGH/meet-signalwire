@@ -47,7 +47,7 @@
 //set the variables
 
 	$meet_signalwire_room = $_SESSION['meet_signalwire']['meet_signalwire_room']['text'];
-  $meet_signalwire_participant_token = $_SESSION['meet_signalwire']['meet_signalwire_participant_token']['text'];
+  	$meet_signalwire_participant_token = $_SESSION['meet_signalwire']['meet_signalwire_participant_token']['text'];
 	$meet_signalwire_moderator_token = $_SESSION['meet_signalwire_moderator_token']['meet_signalwire_moderator_token']['text'];
 
 //show the content
@@ -70,7 +70,7 @@ $output = <<<OUTPUT
     swvr({
 
 	token: '$meet_signalwire_participant_token',
-         userName: '$meet_signalwire_name'
+       //  userName: '$meet_signalwire_name'
     });
   </script>
   <!-- End SignalWire Video Room -->
