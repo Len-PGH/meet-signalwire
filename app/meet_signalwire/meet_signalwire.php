@@ -59,20 +59,27 @@ $output = <<<OUTPUT
 <center><h1>Hello! Meet-Signalwire</h1></center>
 <hr><center></center>
  <!-- SignalWire Video Room -->
-  <script>
-    !function(e,n,r){e[r]=e[r]||function(n={}){Object.assign(e[r].p=e[r].p||{},n)}
-    ;let t=n.currentScript;var o=n.createElement("script")
-    ;o.type="module",o.src="https://cdn.signalwire.com/video/rooms/index.js",
-    o.onload=function(){var o=n.createElement("ready-room")
-    ;o.params=e[r].p,t.parentNode.appendChild(o)},t.parentNode.insertBefore(o,t)
-    }(window,document,"swvr");
-
-    swvr({
-
-	token: '$meet_signalwire_participant_token',
-       //  userName: '$meet_signalwire_name'
-    });
-  </script>
+ 
+ 
+ <script>!function(e,t){function i(){let t=Object.assign({rootElement:r},e.swvr.p)
+;SignalWire.AppKit.VideoConference(t)}e.swvr=e.swvr||function(t={}){
+Object.assign(e.swvr.p=e.swvr.p||{},t)}
+;let r=t.currentScript,n=t.createElement("script")
+;n.type="module",n.src="https://cdn.signalwire.com/@signalwire/app-kit@next/dist/signalwire/signalwire.esm.js",
+n.defer=!0,n.onload=i,r.parentNode.insertBefore(n,r)
+;let s=t.createElement("script")
+;s.type="text/javascript",s.noModule=!0,s.src="https://cdn.signalwire.com/@signalwire/app-kit@next/dist/signalwire/signalwire.js",
+s.defer=!0,s.onload=i,r.parentNode.insertBefore(s,r)
+;let o=t.createElement("link")
+;o.type="text/css",o.rel="stylesheet",o.href="https://cdn.signalwire.com/@signalwire/app-kit@next/dist/signalwire/signalwire.css",
+r.parentNode.insertBefore(o,r),e.SignalWire=e.SignalWire||{Prebuilt:{
+VideoRoom:e.swvr},AppKit:{VideoConference:e.swvr}}}(window,document);
+SignalWire.AppKit.VideoConference({
+  token: '$meet_signalwire_participant_token',
+  // userName: 'your-name',
+});</script>
+ 
+ 
   <!-- End SignalWire Video Room -->
 </body>
 </html>
